@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: rgb(79, 55, 24);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display:flex;
+    margin-right: 30px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: floralwhite;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: 'Lora', serif;
+}
+
+.logo img {
+    margin-right: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: floralwhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+
+.navbar a:hover {
+    background: burlywood;
+    font-family: 'Lora', serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: url(Images/bear.jpg);
+    background-size:45%;
+}
+
+.tittle {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: floralwhite;
+    font-family: 'Lora', serif;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: floralwhite;
+    padding: 0 100px;
+    font-family: 'Lora', serif;
+}
+
+h1{
+    font-family: 'Lora', serif;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 10px 40px;
+    border: 4px solid burlywood;
+    color: floralwhite;
+    text-decoration: none;
+    background:  rgb(79, 55, 24);
+    font-family: 'Caveat', cursive;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 50px 0;
+    background: rgb(195, 179, 150);
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box{
+    height: 170px;
+    width: 270px;
+    background:  rgb(79, 55, 24);
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px floralwhite(0, 0, 0, .3);
+    margin: 20px;
+}
+
+.box-container .box i {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color:bisque;
+    background: white;
+    font-size: 25px;
+    margin: 8px 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: floralwhite;
+}
+
+.box-container .box p {
+    padding: 15px;
+    font-size: 14px;
+}
+
+.price {
+    background: url(Images/brow.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.about {
+    background: wheat;
+    padding: 50px 0;
+}
+
+.box-container2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.box-container2 .box {
+    width: 250px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 5px 5px floralwhite(0, 0, 0, .3);
+    background: wheat;
+    margin: 20px 20px;
+}
+
+.box-container2 .box img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 6px solid floralwhite;
+}
+
+.box-container2 .box h3{
+    font-size: 20px;
+    color: floralwhite;
+    padding-top: 0;
+    font-family: 'Lora', serif;
+}
+
+.box-container2 .box p{
+    font-size: 18px;
+    color: wheat;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+
+.box-container2 .box .stars i{
+    font-size: 15px;
+    color: floralwhite;
+}
+
+.formulario{
+    background: url(Images/cafesito.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+.bunny {
+    padding: 50px 0;
+    background:rgb(79, 55, 24);
+    color: floralwhite;
+    font-family: 'Lora', serif;
+}
